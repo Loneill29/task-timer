@@ -27,17 +27,28 @@
 
 #input {
   width: 50%;
-  margin-top: 20px;
+  margin-top: 50px!important;
+  margin: auto;
+  margin-bottom: 20px;
 }
 ul {
   list-style: none;
 }
 .item-name {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .time-left {
   font-weight: normal!important;
   font-size: 15px!important;
+}
+
+#item-list {
+  margin: auto;
+  padding-top: 20px;
+}
+
+#to-do-list, #new-item-form, #list-title {
+  text-align: center;
 }
