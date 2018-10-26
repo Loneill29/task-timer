@@ -1,6 +1,7 @@
 <div class="container">
   <h2 id="list-title">My Tasks</h2>
     <div id="list" class="row">
-      <h5>Signed in as: <%= @user.email %> </h5>
+      <%= render partial: 'items/form' %>
+      <%= render partial: 'items/item' %>
     </div>
 </div>
