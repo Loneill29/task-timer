@@ -20,7 +20,8 @@
     </div>
     <div class="container">
       <ul class="nav nav-tabs">
-        <li><%= link_to "TaskTimer", root_path %></li>
+        <li><%= link_to "TaskTimer", welcome_index_path %></li>
+        <li><%= link_to "My Tasks", user_session_path, :class => 'nav-link'%></li>
       </ul>
 
     <%= yield %>
